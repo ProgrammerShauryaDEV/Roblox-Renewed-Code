@@ -1,0 +1,18 @@
+game.Workspace.Mypart.Transparency = 0.3
+game.Workspace.Mypart.BrickColor = BrickColor.new("Deep blue")
+game.Workspace.Mypart.Anchored = true
+
+
+game.Workspace.Trypart.Material = Enum.Material.Wood -- simple way for changing material
+game.Workspace:FindFirstChild("Gravity").BrickColor = BrickColor.new("Really red") --Colliders Code
+game.Workspace:FindFirstChild("Gravity").Anchored = true
+
+game.Workspace.dice1.Anchored = false
+wait(0.5)
+game.Workspace.dice2.Anchored = false
+
+--Using Variables for this thing
+local dice = game.Workspace
+dice.dice1.Anchored = false
+wait(1)
+dice.dice2.Anchored = false
